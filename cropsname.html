@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="dashboard.css">
+  </head>
+  <body>
+    <div class="grid-container">
+
+      <!-- Header -->
+      <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+          <span class="material-icons-outlined">menu</span>
+        </div>
+        <div class="header-left">
+          <span class="material-icons-outlined">search</span>
+        </div>
+        <div class="header-right">
+          <span class="material-icons-outlined">notifications</span>
+          <span class="material-icons-outlined">email</span>
+          <span class="material-icons-outlined">account_circle</span>
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <div class="sidebar-title">
+          <div class="sidebar-brand">
+            <span class="material-icons-outlined">inventory</span>AgroExchangeCrops
+          </div>
+          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item">
+            <a href="admin.html" >
+              <span class="material-icons-outlined">dashboard</span> Dashboard
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="cropsname.html" >
+              <span class="material-icons-outlined">inventory_2</span> Crops Name
+            </a>
+          </li>
+          <!-- <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">fact_check</span> Inventory
+            </a>
+          </li> -->
+          <li class="sidebar-list-item">
+            <a href="purchaseorder.html" >
+              <span class="material-icons-outlined">add_shopping_cart</span> Purchase Orders
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="saleorder.html" >
+              <span class="material-icons-outlined" > shopping_cart</span> Sales Orders
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="statistic.html" >
+              <span class="material-icons-outlined">shopping_cart</span> Statistic
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="#" >
+              <span class="material-icons-outlined">poll</span> Reports
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="#">
+              <span class="material-icons-outlined">settings</span> Settings
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <!-- End Sidebar -->
+
+      <!-- Main -->
+      <main class="main-container">
+       <div class="cropname">
+        <div class="cropshead">
+            <h1>CROPS NAME </h1>
+        </div>
+        <div class="tablewrapper">
+            <h3 class="maintitle">Ibishyimbo</h3>
+            <div class="tablecontainer">
+                <table>
+                    <thead>
+                        
+                        <tr>
+                            
+                            <th>Full Name</th>
+                            <th>Phone Number</th>
+                            <th>Categories</th>
+                            <th>Transaction Type</th>
+                            <th>Name of Crops</th>
+                            <th> Average of Quantity</th>
+                            <th>Location</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mugisha jean</td>
+                            <td>078488888</td>
+                            <td>businessman</td>
+                            <td>Buyer</td>
+                            <td>Ibishyimbo</td>
+                            <td>10tones per Season</td>
+                            <td>Nyagatare</td>
+                            <td><button>Edit</button><button>Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td>Terimbere Muhinzi</td>
+                            <td>078488888</td>
+                            <td>Cooperative</td>
+                            <td>Seller</td>
+                            <td>Ibishyimbo</td>
+                            <td>100tones per Season</td>
+                            <td>Musanze</td>
+                            <td><button>Edit</button><button>Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td>Cooperative abisuganye</td>
+                            <td>078488888</td>
+                            <td>Cooperative</td>
+                            <td>Seller</td>
+                            <td>Ibishyimbo</td>
+                            <td>100tones per Season</td>
+                            <td>Musanze</td>
+                            <td><button>Edit</button><button>Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td>Cooperative abisuganye</td>
+                            <td>078488888</td>
+                            <td>Cooperative</td>
+                            <td>buyer</td>
+                            <td>Ibishyimbo</td>
+                            <td>100tones per Season</td>
+                            <td>Musanze</td>
+                            <td><button>Edit</button><button>Delete</button></td>
+                        </tr>
+                    </tbody>
+                     
+                </table>
+            </div>
+
+            <h3 class="maintitle">Ibirayi</h3>
+            <div class="tablecontainer">
+                <table>
+                    <thead>
+                        
+                        <tr>
+                            
+                            <th>Full Name</th>
+                            <th>Phone Number</th>
+                            <th>Categories</th>
+                            <th>Transaction Type</th>
+                            <th>Name of Crops</th>
+                            <th> Average of Quantity</th>
+                            <th>Location</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mugisha jean</td>
+                            <td>078488888</td>
+                            <td>businessman</td>
+                            <td>Buyer</td>
+                            <td>Ibirayi</td>
+                            <td>10tones per Season</td>
+                            <td>Nyagatare</td>
+                            <td><button>Edit</button><button>Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td>Terimbere Muhinzi</td>
+                            <td>078488888</td>
+                            <td>Cooperative</td>
+                            <td>Seller</td>
+                            <td>Ibirayi</td>
+                            <td>100tones per Season</td>
+                            <td>Musanze</td>
+                            <td><button>Edit</button><button>Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td>Cooperative abisuganye</td>
+                            <td>078488888</td>
+                            <td>Cooperative</td>
+                            <td>Seller</td>
+                            <td>Ibirayi</td>
+                            <td>100tones per Season</td>
+                            <td>Musanze</td>
+                            <td><button>Edit</button><button>Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td>Cooperative abisuganye</td>
+                            <td>078488888</td>
+                            <td>Cooperative</td>
+                            <td>buyer</td>
+                            <td>Ibirayi</td>
+                            <td>100tones per Season</td>
+                            <td>Musanze</td>
+                            <td><button>Edit</button><button>Delete</button></td>
+                        </tr>
+                    </tbody>
+                     
+                </table>
+            </div>
+            <h3 class="maintitle">Ibigori</h3>
+            <div class="tablecontainer">
+                <table>
+                    <thead>
+                        
+                        <tr>
+                            
+                            <th>Full Name</th>
+                            <th>Phone Number</th>
+                            <th>Categories</th>
+                            <th>Transaction Type</th>
+                            <th>Name of Crops</th>
+                            <th> Average of Quantity</th>
+                            <th>Location</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mugisha jean</td>
+                            <td>078488888</td>
+                            <td>businessman</td>
+                            <td>Buyer</td>
+                            <td>Ibigori</td>
+                            <td>10tones per Season</td>
+                            <td>Nyagatare</td>
+                            <td><button>Edit</button><button>Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td>Terimbere Muhinzi</td>
+                            <td>078488888</td>
+                            <td>Cooperative</td>
+                            <td>Seller</td>
+                            <td>Ibigori</td>
+                            <td>100tones per Season</td>
+                            <td>Musanze</td>
+                            <td><button>Edit</button><button>Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td>Cooperative abisuganye</td>
+                            <td>078488888</td>
+                            <td>Cooperative</td>
+                            <td>Seller</td>
+                            <td>Ibigori</td>
+                            <td>100tones per Season</td>
+                            <td>Musanze</td>
+                            <td><button>Edit</button><button>Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td>Cooperative abisuganye</td>
+                            <td>078488888</td>
+                            <td>Cooperative</td>
+                            <td>buyer</td>
+                            <td>Ibigori</td>
+                            <td>100tones per Season</td>
+                            <td>Musanze</td>
+                            <td><button>Edit</button><button>Delete</button></td>
+                        </tr>
+                    </tbody>
+                     
+                </table>
+            </div><br><br>
+             <h3 class="maintitle">Ingano</h3>
+            <div class="tablecontainer">
+                <table>
+                    <thead>
+                        
+                        <tr>
+                            
+                            <th>Full Name</th>
+                            <th>Phone Number</th>
+                            <th>Categories</th>
+                            <th>Transaction Type</th>
+                            <th>Name of Crops</th>
+                            <th> Average of Quantity</th>
+                            <th>Location</th><th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mugisha jean</td>
+                            <td>078488888</td>
+                            <td>businessman</td>
+                            <td>Buyer</td>
+                            <td>ingano</td>
+                            <td>10tones per Season</td>
+                            <td>Nyagatare</td>
+                            <td><button>Edit</button><button>Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td>Terimbere Muhinzi</td>
+                            <td>078488888</td>
+                            <td>Cooperative</td>
+                            <td>Seller</td>
+                            <td>Ingano/td>
+                            <td>100tones per Season</td>
+                            <td>Musanze</td>
+                            <td><button>Edit</button><button>Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td>Cooperative abisuganye</td>
+                            <td>078488888</td>
+                            <td>Cooperative</td>
+                            <td>Seller</td>
+                            <td>Ibirayi</td>
+                            <td>100tones per Season</td>
+                            <td>Musanze</td>
+                            <td><button>Edit</button><button>Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td>Cooperative abisuganye</td>
+                            <td>078488888</td>
+                            <td>Cooperative</td>
+                            <td>buyer</td>
+                            <td>Ingano</td>
+                            <td>100tones per Season</td>
+                            <td>Musanze</td>
+                            <td><button>Edit</button><button>Delete</button></td>
+                        </tr>
+                    </tbody>
+                     
+                </table>
+            </div>
+        <div class="cropsbody">
+
+            
+        </div>
+       </div>
+
+
+        
+      </main>
+      <!-- End Main -->
+
+    </div>
+
+    <!-- Scripts -->
+    <!-- ApexCharts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.3/apexcharts.min.js"></script>
+    <!-- Custom JS -->
+    <script src="admin.js"></script>
+  </body>
+</html>

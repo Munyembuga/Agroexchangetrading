@@ -1,0 +1,699 @@
+body{
+    background-color:#E3E6F3;;
+    color: white; 
+    width: 100%;
+    height: 1200px;
+}
+.p2phead{
+    display: flex;
+     justify-content: space-between;
+
+}
+.p2plevel1content{
+    box-shadow: 20px 20px 30px  rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    color: #000;
+    min-width: 270px;
+    min-height: 290px;
+    width: 10%;
+    border: 2px solid #cce7d0;
+    cursor: pointer;
+    transition:0.3s ;
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: space-between;
+     margin-left: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    
+}
+
+.p2plevel1content:hover{
+    box-shadow: 20px 20px 30px  rgba(0, 0, 0, 0.8);
+
+}
+.p2plevel1content h3,p, button{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+.p2plevel1content img{
+    width: 100%;
+    border-radius: 20px;
+}
+.phead{
+    margin-top: 1rem;
+    margin-left: 100px;
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+    
+#p2psection{
+    margin-top: 10px;
+}
+.pheadp2p{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.backhead{
+    padding-left: 40px;
+    padding-top: 30px;
+
+}
+.rwf{
+   margin-right: 50px;
+    padding-top: 30px;
+    width: 60px;
+    height: 30px;
+}
+.headall{
+    width: 100%;
+}
+.pname3{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 0px;
+    font-size: 30px;
+    position: relative;
+  
+    
+}
+.pname2 a:hover,
+.pname2 a.active{ 
+    color: #344a72;
+    
+    
+
+}
+.pname2 a:hover::after{
+    color: #344a72;
+    background-color: #344a72;
+    position: absolute;
+    content: "";
+    width: 5%;
+    height: 3px;
+    bottom: -2px;
+    left: 3px;
+
+}
+.pname2 a:hover::after{ 
+    color: #344a72;
+    background-color: #344a72;
+    position: absolute;
+    content: "";
+    width: 5%;
+    height: 3px;
+    bottom: -2px;
+    left: 3px;
+    
+
+}
+.pname1{
+    background-color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 1250px;
+    color: #000;
+    /* height:1200px; */
+    margin-left: 35px;
+    margin-right: 10px;
+    
+}
+.pname1 a{
+    text-decoration: none;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.buy a:hover,
+.sell a:hover,
+.psellbuy a.active{
+    color: #088178;
+
+}
+.psellbuy{
+    display: flex;
+    justify-content: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 60px;
+   
+
+}
+.sell a{
+    text-decoration: none;
+    color: #000000;
+     padding: 20px; ;
+}
+.buy a{
+    text-decoration: none;
+    color: #000000;
+    padding: 20px;
+}
+
+.morecontent{
+    right: 0;
+    }
+    .morebtn{
+       
+        color: blue;
+        background-color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    
+    }
+    .more{
+        position: relative;
+        display: inline-block;
+    
+    }
+    .morecontent{
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #f9f9f9;
+        color: black;
+        font-size: 210px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0,2);
+        z-index: 1;
+    }
+    .morecontent a{
+        color: black;
+    
+        text-decoration: none;
+        display: block;
+        padding: 10px 8px;
+        font-size: 8px;
+    
+    }
+    .morecontent a:hover{
+        background-color: #344a72;
+        color: white; 
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .more:hover .morecontent{
+        display: block;
+        
+
+    
+    }
+    .iconp2p2 {
+        display: flex;
+        background-color: black;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        justify-content: space-between;
+         position: fixed;
+        bottom:0%; width: 100%;
+    
+    }
+    .homep2p2 a{
+        padding-left:5rem ;
+        color: white;
+        text-decoration: none;
+
+    }
+    .oderp2p2  a{
+        padding-left:5rem ;
+       text-decoration: none;
+       color: white;
+    }
+    .adsp2p2 a{
+         text-decoration: none;
+        color: white;
+        padding-left:5rem
+    }
+    .profilep a{
+         text-decoration: none;
+        color: white;
+        padding-left: 5rem;
+
+    }
+    .adsbody{
+        color: black;
+        background-color: white;
+        height: 1000px;
+        border-radius: 20px;
+    }
+    .adscontent{
+        display: flex;
+        justify-content: space-evenly;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .titlec{
+        display: flex;
+        justify-content:space-around;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+
+    }
+    .marque{
+        margin-top: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        padding-top: 30px;
+
+    }
+    .ads{
+        height: 150px;
+    }
+    .p2plevel1{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 2cqi;
+        margin-top: 70px;
+        
+    }
+    .p2pbutton{
+        margin-bottom: 20px;
+        border-radius: 10px;
+        background-color: green;
+        color:black;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E3E6F3;
+    padding: 20px 20px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    position: sticky;
+    /* z-index: 999; */
+    top: 0;
+    left: 0;
+    
+
+}
+#homeiconbtn{
+display: flex;
+}
+#homeiconbtn li{
+    list-style: none;
+    position: relative;
+    padding: 0 20px;
+}
+#homeiconbtn li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease;
+}
+#homeiconbtn li a:hover,
+#homeiconbtn li a.active{
+    color:#088178
+}
+
+#homeiconbtn li a.active::after,
+#homeiconbtn li a:hover::after{
+    content: "";
+    background-color: #088178;
+    position: absolute;
+    color:#088178;
+    width:30%;
+    height:3px;
+    bottom:-4px;
+    left: 20px;
+    
+}
+
+.headprofile{
+    position: relative;
+    display: inline-block;
+
+}
+.headprofilebtn{
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+
+}
+.headprofilecontent{
+    display: none;
+    position: absolute;
+    left:0;
+    background-color: #f9f9f9;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 300px;
+    min-height: 600px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    padding-top: -20px;
+    margin-top: 0%;
+
+}
+.headprofilecontent a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+
+
+}
+.headprofilecontent a:hover{
+    color: #088178;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.headprofile:hover .headprofilecontent{
+    display: block;
+}
+#footer{
+    background-color:  rgb(190, 190, 190);
+    color: black;
+    font-size: 15px;
+
+
+    
+}
+.footerbtn{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0%;
+}
+.suppoterdwn{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.copyright{
+text-align: center;
+}
+.featurebtn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: black;
+
+}
+.fe-box{
+    width: 140px;
+    text-align: center;
+
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.1);
+    border: 1px solid #cce7dc;
+    border-radius: 8px;
+    
+    margin-top: 80px;
+
+}
+#features.fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+.fe-box h4{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #f9f9f9;
+}
+#features.fe-box img{
+   width: 100%;
+}
+#bodyhome{
+    color: black;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#bodyhome h2{
+    margin-left: 70px;
+}
+#product{
+    text-align: center;
+    color:black ;
+}
+
+#product.productcontent{
+    min-width:200px;
+    min-height: 100px;
+}
+.contact{
+    position: relative;
+    display: inline-block;
+
+
+}
+.p2pbutton{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+.contactcontent{
+    display: none;
+    position: absolute;
+    left:0;
+    background-color: #f9f9f9;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 400px;
+    min-height: 600px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding-top: -20px;
+    margin-top: 0%;
+
+}
+.contactcontent label{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+
+
+}
+.contactcontent a:hover{
+    color: #088178;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.contact:hover .contactcontent{
+    display: block;
+
+}
+.photohead {
+    display: flex;
+    font-size: 200px;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+
+}
+.photohead1{
+    width: 185px;
+    text-align: center;
+
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.1);
+    border: 1px solid #cce7dc;
+    border-radius: 8px;
+    
+    margin-top: 80px;
+    display: flex;
+
+}
+.photohead1 img{
+ width: 185px;
+ height: 250px;
+}
+.marquehead{
+    color: black;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.suppoterdwn{
+    margin-bottom: 2px;
+}
+.content1{
+    color: #000000;
+    font-size: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.content1 a{
+    text-decoration: none;
+    color: #000000;
+    margin-right: ;
+
+}
+.content1 a:hover{
+    color:#088178
+}
+.content1 img{
+   width: 400px;
+   height: 300px;
+}
+.content{
+    display: flex;
+}
+#joinnow{
+ text-decoration: none;
+ font-size: 30px;
+ border-radius: 20px;
+ color: aqua;
+
+
+}
+#joinnow a{
+    text-decoration: none;
+    color: #000000;
+
+}
+#joinnow a:hover{
+    color: #088178 ;
+    
+}
+
+
+#menubar{
+    display: none;
+    align-items: center;
+}
+#close{
+    display: none;
+}
+
+@media  (max-width:700px){
+    #homeiconbtn{
+        display:flex;
+        flex-direction: column;
+        align-items:flex-star;
+        justify-content: flex-start;
+        position:fixed;
+        top:0;
+        right:-300px;
+        height:100vh;
+        width:300px;
+        box-shadow:0 40px 60px rgba(0, 0, 0, 0.1) ;
+        background-color: #E3E6FE;
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+
+
+
+    }
+    #homeiconbtn.active{
+        right:0;
+    }
+#homeiconbtn li{
+    margin-bottom: 25px;
+}
+#menubar{
+    display: flex;
+    align-items: center;
+}
+#menubar i{
+    color: #1a1a1a;
+    font-size: 30px;
+    padding-left: 20px;
+
+} 
+#close{
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #000000;
+    font-size: 24px;
+} 
+.photohead{ 
+   
+font-size: 200px;
+justify-content: center;
+}
+.photohead1{
+    margin: px;
+}
+.featurebtn{
+  
+    justify-content:center;
+    color: black;
+
+}
+.fe-box{
+   margin: 15px 15px;
+
+}
+.fe-box h4{
+    margin:10px 10px;
+}
+.p2plevel1 {
+   justify-content: center;
+
+}
+.p2plevel1content{
+  justify-content: center;
+  margin: 3px 3px;
+    
+}
+.footerbtn{
+    
+    /* justify-content:center; */
+    margin: 10px 10px;
+    flex-direction: column;
+    align-items: flex-star;
+    justify-content: center;
+  
+}
+.suppoterdwn{
+    flex-direction: column;
+}
+}
+.searchbar{
+    width: 40%;
+    background-color:white;
+    border-radius: 7px;
+    padding: 9px;
+    margin-left: 600px;
+   
+  
+
+}
+input{
+    border: none;
+    outline: none;
+    background: #cce7d0;
+    height: 30px;
+    border-radius: 12px;
+}

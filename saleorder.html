@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="admin.css">
+  </head>
+  <body>
+    <div class="grid-container">
+
+      <!-- Header -->
+      <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+          <span class="material-icons-outlined">menu</span>
+        </div>
+        <div class="header-left">
+          <span class="material-icons-outlined">search</span>
+        </div>
+        <div class="header-right">
+          <span class="material-icons-outlined">notifications</span>
+          <span class="material-icons-outlined">email</span>
+          <span class="material-icons-outlined">account_circle</span>
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <div class="sidebar-title">
+          <div class="sidebar-brand">
+            <span class="material-icons-outlined">inventory</span>AgroExchangeCrops
+          </div>
+          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item">
+            <a href="admin.html" >
+              <span class="material-icons-outlined">dashboard</span> Dashboard
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="cropsname.html">
+              <span class="material-icons-outlined">inventory_2</span> Crops Name
+            </a>
+          </li>
+          <!-- <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">fact_check</span> Inventory
+            </a>
+          </li> -->
+          <li class="sidebar-list-item">
+            <a href="purchaseorder.html" >
+              <span class="material-icons-outlined">add_shopping_cart</span> Purchase Orders
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="saleorder.html">
+              <span class="material-icons-outlined">shopping_cart</span> Sales Orders
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="statistic.html" >
+              <span class="material-icons-outlined">shopping_cart</span> Statistic
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">poll</span> Reports
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">settings</span> Settings
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <!-- End Sidebar -->
+
+      <!-- Main -->
+      <main class="main-container">
+        <div class="main-title">
+          <p class="font-weight-bold">  <center><h1 style="color: black;align-items: center;text-align: center;">Sell Order</h1></center>
+          </p>
+        </div>
+
+      
+
+        <div class="main-cards2">
+            <div class="card2">
+              <div class="card-inner2">
+                <p class="text-primary"><strong>Sale Order</strong></p>
+                <p class="text-primary"><strong>Saller Information:</strong></p>
+                <p> Name: <strong>Mukamana Agnes</strong></p>
+                <p>Phone Number: <strong>078888888</strong></p>
+                <p>Location Name: <strong>Nyagatare</strong></p>
+                <p>Crops Name: <strong>Ibigori</strong></p>
+                <p>Price: <strong>500Rwf/kg</strong></p>
+                <p>Quantity: <strong>10tones</strong></p>
+                <p class="text-primary"><strong>buyer Information:</strong></p>
+                <p>Full Name: <strong>bushenya Industry</strong></p>
+                <p>Phone Number: <strong>0788888888</strong></p>
+                <p>Location: <strong>Kamonyi</strong></p>
+                <!-- <p>Full Name: <strong>Mukamana Agnes</strong></p>
+                <p>Full Name: <strong>Mukamana Agnes</strong></p>
+                <p>Full Name: <strong>Mukamana Agnes</strong></p> -->
+               
+                
+              </div>
+              <span class="text-primary font-weight-bold" style="align-items: center;text-align: center;" >Action:<strong>Completed Order </strong></span>
+            </div>
+        </div>
+
+       
+
+        
+      </main>
+      <!-- End Main -->
+
+    </div>
+
+    <!-- Scripts -->
+    <!-- ApexCharts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.3/apexcharts.min.js"></script>
+    <!-- Custom JS -->
+    <script src="admin.js"></script>
+  </body>
+</html>
